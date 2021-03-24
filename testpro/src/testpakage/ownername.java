@@ -6,12 +6,13 @@ class owner{
     int Class;
 
     void insert(String firstName,String lastName,int age, int Class){
-        this.firstName=firstName;
+        this.firstName = firstName;
         this.lastName=lastName;
         this.age=age;
         this.Class=Class;
+
     }
-    void display() {
+   void display() {
         System.out.println(firstName + " " + lastName + " " + age + " " + Class);
     }
 }
