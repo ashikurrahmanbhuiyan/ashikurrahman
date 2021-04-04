@@ -5,18 +5,22 @@ class Animal{
     }
 }
 class Dog extends Animal{
+
     void breaking(){
         System.out.println("breaking");
     }
+    void eat(){
+        System.out.println("ashik is eating");
+    }
 }
 class Employee{
-    float slary = 120000;
+    float salary = 120000;
     void mess(){
         System.out.println("eat");
     }
 }
 class programmer extends Employee{
-    int bouns = 20000;
+    int bonus = 20000;
 }
 class ashik extends programmer{
     String name = "ashik";
