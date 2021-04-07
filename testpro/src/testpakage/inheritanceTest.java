@@ -1,16 +1,22 @@
-package testpakage;
+package  testpakage;
 class Animal{
+    String color = "green";
     void eat(){
         System.out.println("eating");
     }
 }
 class Dog extends Animal{
-
+    String color = "Red";
     void breaking(){
         System.out.println("breaking");
     }
     void eat(){
-        System.out.println("ashik is eating");
+        System.out.println("dog is eating");
+        super.eat();
+    }
+    void pcolor(){
+        System.out.println(this.color);
+        System.out.println(super.color);
     }
 }
 class Employee{
